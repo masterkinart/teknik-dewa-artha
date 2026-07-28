@@ -38,7 +38,7 @@ export default function Header() {
           <a href="#contact">Contact</a>
         </nav>
         <a href="#contact" className="nav-cta">
-          Get a Quote
+          Butuh Bantuan
         </a>
         <button
           className="menu-toggle"

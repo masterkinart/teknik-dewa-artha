@@ -181,7 +181,7 @@ export default function Home() {
                 <div className="legal-nib">AHU-0057037-AH.01.14 Tahun 2025</div>
               </div>
             </div>
-            <div className="legal-card">
+            <div className="legal-card legal-card-8">
               <div className="legal-icon">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <rect x="3" y="7" width="18" height="13" rx="2" />
@@ -223,7 +223,7 @@ export default function Home() {
               </div>
               <div>
                 <h4>Alamat Kantor</h4>
-                <p>Jl. Kawasan Industri No. 45 Surabaya, Jawa Timur, Indonesia</p>
+                <p>JL. H. SYUKUR III No. 60 Sedati Sidoarjo, Jawa Timur - Indonesia</p>
               </div>
             </div>
             <div className="contact-item">
@@ -234,7 +234,7 @@ export default function Home() {
               </div>
               <div>
                 <h4>Telepon</h4>
-                <p>+62 (31) 555-0123</p>
+                <p>0856 4846 8999</p>
               </div>
             </div>
             <div className="contact-item">
@@ -246,7 +246,7 @@ export default function Home() {
               </div>
               <div>
                 <h4>Email</h4>
-                <p>info@teknikdewaartha.co.id</p>
+                <p>cvteknikdewaartha@yahoo.com</p>
               </div>
             </div>
           </div>
@@ -270,7 +270,7 @@ export default function Home() {
           Konsultasikan kebutuhan teknis industri Anda secara langsung dengan ahli kami melalui
           WhatsApp.
         </p>
-        <a href="https://wa.me/6231555123" target="_blank" className="wa-btn" rel="noreferrer">
+        <a href="https://wa.me/6285648468999" target="_blank" className="wa-btn" rel="noreferrer">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff">
             <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.5 3.62 1.4 5.13L2 22l5.13-1.49a9.87 9.87 0 0 0 4.91 1.31c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.72 14.13c-.24.68-1.4 1.3-1.93 1.36-.5.06-1.03.26-3.4-.71-2.86-1.18-4.7-4.07-4.84-4.26-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.56-.35.75-.35h.54c.17 0 .4-.06.63.48.24.56.8 1.95.87 2.09.07.14.12.31.02.5-.1.19-.15.31-.3.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.21.71-.83.9-1.11.19-.29.38-.24.63-.14.26.1 1.65.78 1.93.92.29.14.48.21.55.33.07.12.07.71-.17 1.39z" />
           </svg>
@@ -280,7 +280,7 @@ export default function Home() {
 
       {/* FLOATING WHATSAPP BUTTON */}
       <a
-        href="https://wa.me/6231555123"
+        href="https://wa.me/6285648468999"
         target="_blank"
         className="wa-float"
         aria-label="Chat via WhatsApp"
