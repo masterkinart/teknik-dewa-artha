@@ -253,7 +253,7 @@ export default function Home() {
 
           <div className="contact-map">
             <iframe
-              src="https://maps.google.com/maps?q=Jl.%20Kawasan%20Industri%20No.%2045%2C%20Surabaya%2C%20Jawa%20Timur%2C%20Indonesia&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=JL.%20H.%20Syukur%20III%20No.%2060%20Sedati%20Sidoarjo%2C%20Jawa%20Timur%20-%20Indonesia&t=&z=15&ie=UTF8&iwloc=&output=embed"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen

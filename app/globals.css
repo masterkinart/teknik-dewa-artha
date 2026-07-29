@@ -206,7 +206,7 @@
   .panel-head{display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; flex-wrap:wrap; gap:12px;}
   .panel-head h3{font-size:17px; font-weight:700; color:var(--navy-900);}
   .product-swatches{
-    display:grid; grid-template-columns:repeat(5,1fr); gap:14px; margin-bottom:14px;
+    display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:14px;
   }
   .swatch{
     aspect-ratio:1; border-radius:10px; background:var(--gray-100);

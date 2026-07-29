@@ -66,11 +66,6 @@ export default function ProductsSection() {
                   <circle cx="30" cy="30" r="24" fill="none" stroke="#c9a25a" strokeWidth="7" />
                 </svg>
               </div>
-              <div className="swatch">
-                <svg width="70%" viewBox="0 0 60 60">
-                  <circle cx="30" cy="30" r="24" fill="none" stroke="#b9c2cb" strokeWidth="7" />
-                </svg>
-              </div>
             </div>
             <div className="product-swatches">
               <div className="swatch">
@@ -97,15 +92,9 @@ export default function ProductsSection() {
                   <rect x="22" y="18" width="16" height="24" rx="3" fill="#5b6b7c" />
                 </svg>
               </div>
-              <div className="swatch">
-                <svg width="80%" viewBox="0 0 60 60">
-                  <rect x="10" y="26" width="40" height="8" rx="2" fill="#9aa7b3" />
-                  <rect x="22" y="18" width="16" height="24" rx="3" fill="#1c4d80" />
-                </svg>
-              </div>
             </div>
             <div className="product-swatches">
-              {[0, 1, 2, 3, 4].map((i) => (
+              {[0, 1, 2, 3].map((i) => (
                 <div className="swatch" key={i}>
                   <svg width="80%" viewBox="0 0 60 60">
                     <rect x="8" y="24" width="44" height="12" rx="6" fill="#aab5bf" />
