@@ -118,6 +118,7 @@
 
   /* SECTION generic */
   section{padding:88px 0;}
+  section[id]{scroll-margin-top:90px;}
   .section-tight{padding:70px 0;}
 
   /* ABOUT */
@@ -297,5 +298,7 @@
     .nav-links{display:none;}
     .menu-toggle{display:flex;}
     .hero-content h1{font-size:27px;}
+    .vm-grid{grid-template-columns:1fr;}
+    .vm-card{width:100%;}
     .footer-inner{flex-direction:column; text-align:center;}
   }

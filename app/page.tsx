@@ -223,7 +223,7 @@ export default function Home() {
               </div>
               <div>
                 <h4>Alamat Kantor</h4>
-                <p>JL. H. SYUKUR III No. 60 Sedati Sidoarjo, Jawa Timur - Indonesia</p>
+                <p>JL. H. Syukur III No. 60 Sedati Sidoarjo, Jawa Timur - Indonesia</p>
               </div>
             </div>
             <div className="contact-item">
