@@ -17,7 +17,8 @@ export default function Home() {
             <p>
               Menyediakan komponen teknik berkualitas tinggi dan layanan rekayasa presisi untuk
               mendukung operasional industri manufaktur, pertambangan, dan energi di seluruh
-              Indonesia.
+              Indonesia. Kami adalah toko alat industri Surabaya dan Sidoarjo yang menjual alat
+              industri berkualitas seperti gasket, fitting, valve, plat, pipa, dan sparepart teknik.
             </p>
             <div className="hero-actions">
               <a href="#products" className="btn btn-primary">
