@@ -3,13 +3,15 @@
 import { useState } from "react";
 
 const categories = [
-  "Gasket/Packing",
-  "Fitting & Valve",
-  "Plat & Pipes",
-  "Plastic Engineering",
-  "Petrol Utilities",
-  "Wiring & Materials",
-  "Support",
+  "O Ring Viton Custom",
+  "Packing Custom Non Asbeston & Asbestos",
+  "Packing Rubber Lembaran & Custom",
+  "Fitting Valve Besi",
+  "Fitting Valve PVC",
+  "Fitting Valve Stainless",
+  "Fitting Valve Swagelok",
+  "Spiral Wound Gasket",
+  "Mix",
 ];
 
 export default function ProductsSection() {
