@@ -90,22 +90,20 @@
     position:relative;
     min-height:640px;
     display:flex; align-items:center;
-    background:
-      linear-gradient(100deg, rgba(9,26,48,.88) 0%, rgba(11,35,64,.72) 45%, rgba(11,35,64,.55) 100%),
-      repeating-linear-gradient(90deg, #16375c 0 2px, #0f2c4c 2px 140px),
-      linear-gradient(180deg,#0b2340,#132c4d);
+    background-image: url("/hero-bg.jpg");
+    background-color:#000;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
     overflow:hidden;
   }
   .hero::before{
     content:"";
     position:absolute; inset:0;
-    background-image:
-      linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
-    background-size:60px 60px;
-    opacity:.5;
+    background:rgba(0,0,0,.45);
+    z-index:1;
   }
-  .hero-inner{position:relative; z-index:2; padding:70px 24px 90px; max-width:640px; margin:0 auto 0 0;}
+  .hero-inner{position:relative; z-index:3; padding:70px 24px 90px; max-width:640px; margin:0 auto 0 0;}
   .hero .container-wide{max-width:1180px; margin:0 auto; width:100%;}
   .hero-content{max-width:100%; padding:60px 0 100px;}
   .hero-content h1{
