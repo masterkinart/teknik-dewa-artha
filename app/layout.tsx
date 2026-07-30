@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+// TS: allow side-effect CSS import when no type declarations are present
+// @ts-ignore: Implicit any for stylesheet import
 import "./globals.css";
 
 const schema = {
