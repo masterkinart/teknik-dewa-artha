@@ -11,6 +11,8 @@ const categories = [
       "O RING RUBBER.jfif",
       "O RING VITON.jfif",
     ],
+    footerText:
+      "*BERAGAM JENIS O RING SEPERTI :O RING VITON, O RING NBR, O RING CUSTOM, SEAL MEMBRAN CUSTOM.",
   },
   {
     label: "Asbestos Tape & Fiber Tape",
@@ -19,6 +21,7 @@ const categories = [
       "Asbestos Tape.webp",
       "Fiber Tape.jfif",
     ],
+    footerText: "*BERAGAM JENIS TAPE :ASBESTOS TAPE, FIBER TAPE.",
   },
   {
     label: "Bolt & Nut",
@@ -29,6 +32,8 @@ const categories = [
       "BAUT MUR FLUROCARBON.jfif",
       "Baut Mur Stainless.jfif",
     ],
+    footerText:
+      "*BERAGAM JENIS BAUT MUR :BAUT MUR FLUOROCARBON, BAUT MUR B7, NUT 2H, CUSTOM BAUT.",
   },
   {
     label: "Fitting Valve Besi & Stainless",
@@ -39,6 +44,8 @@ const categories = [
       "VALVE BRASS.jfif",
       "VALVE.jfif",
     ],
+    footerText:
+      "*BERAGAM JENIS DAN MATERIAL FITTING DAN VALVE, SEPERTI :BALL VALVE, GLOBE VALVE, GATE VALVE, BUTTERFLY VALVE MATERIAL BESI DAN STAINLESS, ELBOW STAINLESS, TEE STAINLESS, ELBOW STAINLESS SCH 10, TEE STAINLESS SCH 40.",
   },
   {
     label: "Fitting Valve PVC",
@@ -54,6 +61,8 @@ const categories = [
       "SWING CHECK VALVE PVC.jpg",
       "VALVE PVC.jfif",
     ],
+    footerText:
+      "*BERAGAM JENIS FITTING VALVE PVC :ELBOW PVC, TEE PVC, SOCK PVC, VALVE PVC, FITTING VALVE PVC SCH 80.",
   },
   {
     label: "Packing Gasket",
@@ -70,6 +79,8 @@ const categories = [
       "TOMBO1995.jpg",
       "WhatsApp Image 2026-07-13 at 09.21.47 (2).jpeg",
     ],
+    footerText:
+      "*BERAGAM JENIS GASKET :KLINGRIT 1000, TOMBO 1995, TOMBO 1000, KLINGERSIL, CUSTOM FABRIKASI BENTUK FLANGE.",
   },
   {
     label: "Plastic Engineering",
@@ -83,6 +94,8 @@ const categories = [
       "PP SHEET.jfif",
       "PTFE ROD.jfif",
     ],
+    footerText:
+      "*BERAGAM JENIS DAN MATERIAL PLASTIC ENGINEERING, SEPERTI :PTFE SHEET, PTFE ROD, PERTINAX SHEET, PERTINAX ROD, NOVOTEX SHEET, PP SHEET, PE SHEET, PU SHEET.",
   },
   {
     label: "Ring Copper & Tungsten Custom",
@@ -91,6 +104,8 @@ const categories = [
       "COPPER CUSTOM.jfif",
       "TUNGSTEN.jpeg",
     ],
+    footerText:
+      "*BERAGAM JENIS DAN MATERIAL COPPER, SEPERTI :O RING COPPER, O RING COPPER CUSTOM, TUNGSTEN CUSTOM.",
   },
   {
     label: "Spiral Wound Gasket",
@@ -101,6 +116,8 @@ const categories = [
       "Spiral Wound Gasket.jpg",
       "WhatsApp Image 2026-07-13 at 09.27.16 (1).jpeg",
     ],
+    footerText:
+      "*BERAGAM JENIS DAN MATERIAL SPIRAL WOUND SEPERTI :SPIRAL WOUND GASKET INNER OUTER STAINLESS, SPIRAL WOUND GASKET INNER OUTER BESI, SPIRAL WOUND GASKET BASIC, SWG IOR SS304, SWG IOR SS316.",
   },
 ];
 
@@ -148,9 +165,7 @@ export default function ProductsSection() {
                 </div>
               ))}
             </div>
-            <p className="panel-note">
-              * Showing featured items. Over 20+ variations available in our full catalog.
-            </p>
+            <p className="panel-note">{selectedCategory.footerText}</p>
           </div>
         </div>
       </div>
