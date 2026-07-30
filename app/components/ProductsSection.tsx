@@ -15,6 +15,46 @@ const categories = [
       "*BERAGAM JENIS O RING SEPERTI :O RING VITON, O RING NBR, O RING CUSTOM, SEAL MEMBRAN CUSTOM.",
   },
   {
+    label: "Spiral Wound Gasket",
+    folder: "cat09",
+    images: [
+      "SPIRAL WOUND GASKET BASIC.jpeg",
+      "SPIRAL WOUND GASKET.jfif",
+      "Spiral Wound Gasket.jpg",
+      "WhatsApp Image 2026-07-13 at 09.27.16 (1).jpeg",
+    ],
+    footerText:
+      "*BERAGAM JENIS DAN MATERIAL SPIRAL WOUND SEPERTI :SPIRAL WOUND GASKET INNER OUTER STAINLESS, SPIRAL WOUND GASKET INNER OUTER BESI, SPIRAL WOUND GASKET BASIC, SWG IOR SS304, SWG IOR SS316.",
+  },
+  {
+    label: "Ring Copper & Tungsten Custom",
+    folder: "cat08",
+    images: [
+      "COPPER CUSTOM.jfif",
+      "TUNGSTEN.jpeg",
+    ],
+    footerText:
+      "*BERAGAM JENIS DAN MATERIAL COPPER, SEPERTI :O RING COPPER, O RING COPPER CUSTOM, TUNGSTEN CUSTOM.",
+  },
+  {
+    label: "Packing Gasket",
+    folder: "cat06",
+    images: [
+      "GASKET ASBESTOS.jfif",
+      "GASKET PTFE.jfif",
+      "GASKET RUBBER.jfif",
+      "GLAND PACKING.jpg",
+      "KLINGER SIL C-4500.gif",
+      "TBA.jpg",
+      "TOMBO 1000.jpg",
+      "TOMBO 1935 NON ASBESTOS.jpg",
+      "TOMBO1995.jpg",
+      "WhatsApp Image 2026-07-13 at 09.21.47 (2).jpeg",
+    ],
+    footerText:
+      "*BERAGAM JENIS GASKET :KLINGRIT 1000, TOMBO 1995, TOMBO 1000, KLINGERSIL, CUSTOM FABRIKASI BENTUK FLANGE.",
+  },
+  {
     label: "Asbestos Tape & Fiber Tape",
     folder: "cat02",
     images: [
@@ -65,24 +105,6 @@ const categories = [
       "*BERAGAM JENIS FITTING VALVE PVC :ELBOW PVC, TEE PVC, SOCK PVC, VALVE PVC, FITTING VALVE PVC SCH 80.",
   },
   {
-    label: "Packing Gasket",
-    folder: "cat06",
-    images: [
-      "GASKET ASBESTOS.jfif",
-      "GASKET PTFE.jfif",
-      "GASKET RUBBER.jfif",
-      "GLAND PACKING.jpg",
-      "KLINGER SIL C-4500.gif",
-      "TBA.jpg",
-      "TOMBO 1000.jpg",
-      "TOMBO 1935 NON ASBESTOS.jpg",
-      "TOMBO1995.jpg",
-      "WhatsApp Image 2026-07-13 at 09.21.47 (2).jpeg",
-    ],
-    footerText:
-      "*BERAGAM JENIS GASKET :KLINGRIT 1000, TOMBO 1995, TOMBO 1000, KLINGERSIL, CUSTOM FABRIKASI BENTUK FLANGE.",
-  },
-  {
     label: "Plastic Engineering",
     folder: "cat07",
     images: [
@@ -96,28 +118,6 @@ const categories = [
     ],
     footerText:
       "*BERAGAM JENIS DAN MATERIAL PLASTIC ENGINEERING, SEPERTI :PTFE SHEET, PTFE ROD, PERTINAX SHEET, PERTINAX ROD, NOVOTEX SHEET, PP SHEET, PE SHEET, PU SHEET.",
-  },
-  {
-    label: "Ring Copper & Tungsten Custom",
-    folder: "cat08",
-    images: [
-      "COPPER CUSTOM.jfif",
-      "TUNGSTEN.jpeg",
-    ],
-    footerText:
-      "*BERAGAM JENIS DAN MATERIAL COPPER, SEPERTI :O RING COPPER, O RING COPPER CUSTOM, TUNGSTEN CUSTOM.",
-  },
-  {
-    label: "Spiral Wound Gasket",
-    folder: "cat09",
-    images: [
-      "SPIRAL WOUND GASKET BASIC.jpeg",
-      "SPIRAL WOUND GASKET.jfif",
-      "Spiral Wound Gasket.jpg",
-      "WhatsApp Image 2026-07-13 at 09.27.16 (1).jpeg",
-    ],
-    footerText:
-      "*BERAGAM JENIS DAN MATERIAL SPIRAL WOUND SEPERTI :SPIRAL WOUND GASKET INNER OUTER STAINLESS, SPIRAL WOUND GASKET INNER OUTER BESI, SPIRAL WOUND GASKET BASIC, SWG IOR SS304, SWG IOR SS316.",
   },
 ];
 

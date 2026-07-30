@@ -34,7 +34,7 @@ export default function Header() {
           </a>
           <a href="#about">About</a>
           <a href="#products">Products</a>
-          <a href="#legality">Legality</a>
+          {/* <a href="#legality">Legality</a> */}
           <a href="#contact">Contact</a>
         </nav>
         <a href="#contact" className="nav-cta">
