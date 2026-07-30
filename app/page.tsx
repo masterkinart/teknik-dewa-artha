@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container-wide">
           <div className="hero-content">
             <h1>
-              PT. TEKNIK DEWA ARTHA
+              CV. TEKNIK DEWA ARTHA
               <span>Solusi Rekayasa Industri Terpercaya</span>
             </h1>
             <p>
