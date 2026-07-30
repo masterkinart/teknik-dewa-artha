@@ -1,9 +1,37 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
+
+  useEffect(() => {
+    const sections = ["home", "about", "products", "contact"];
+
+    const handleScroll = () => {
+      let closest = "home";
+      let closestDistance = Number.POSITIVE_INFINITY;
+
+      sections.forEach((id) => {
+        const element = document.getElementById(id);
+        if (!element) return;
+        const rect = element.getBoundingClientRect();
+        const distance = Math.abs(rect.top - 96);
+
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closest = id;
+        }
+      });
+
+      setActiveSection(closest);
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <header>
@@ -29,13 +57,19 @@ export default function Header() {
               : undefined
           }
         >
-          <a href="#home" className="active">
+          <a href="#home" className={activeSection === "home" ? "active" : ""}>
             Home
           </a>
-          <a href="#about">About</a>
-          <a href="#products">Products</a>
+          <a href="#about" className={activeSection === "about" ? "active" : ""}>
+            About
+          </a>
+          <a href="#products" className={activeSection === "products" ? "active" : ""}>
+            Products
+          </a>
           {/* <a href="#legality">Legality</a> */}
-          <a href="#contact">Contact</a>
+          <a href="#contact" className={activeSection === "contact" ? "active" : ""}>
+            Contact
+          </a>
         </nav>
         <a href="#contact" className="nav-cta">
           Butuh Bantuan
