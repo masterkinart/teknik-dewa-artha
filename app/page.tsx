@@ -177,7 +177,7 @@ export default function Home() {
       </section>
 
       {/* LEGALITAS */}
-      <section className="legal-section" id="legality">
+      {/* <section className="legal-section" id="legality">
         <div className="container">
           <div className="legal-head">
             <h2>Legalitas Perusahaan</h2>
@@ -297,7 +297,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* PRODUCTS */}
       <ProductsSection />
