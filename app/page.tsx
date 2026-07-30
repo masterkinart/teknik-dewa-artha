@@ -8,7 +8,7 @@ export default function Home() {
 
       {/* HERO */}
       <section className="hero" id="home">
-        <img src="/hero-bg.jpg" className="hero-img" alt="Hero Image" />
+        <img src="/hero-bg.png" className="hero-img" alt="Hero Image" />
         <div className="container-wide">
           <div className="hero-content">
             <h1>
