@@ -138,13 +138,27 @@ export default function ProductsSection() {
         <div className="products-grid">
           <div className="cat-list">
             {categories.map((cat, i) => (
-              <div
-                key={cat.label}
-                className={`cat-item${active === i ? " active" : ""}`}
-                onClick={() => setActive(i)}
-              >
-                {cat.label}
-                {i > 0 && <span>›</span>}
+              <div key={cat.label}>
+                <div
+                  className={`cat-item${active === i ? " active" : ""}`}
+                  onClick={() => setActive(i)}
+                >
+                  {cat.label}
+                  {i > 0 && <span>›</span>}
+                </div>
+                <div className={`cat-panel${active === i ? " active" : ""}`}>
+                  <div className="product-swatches">
+                    {cat.images.map((image) => (
+                      <div className="swatch" key={image}>
+                        <img
+                          src={encodeURI(`/${cat.folder}/${image}`)}
+                          alt={`${cat.label} - ${image.replace(/\.[^/.]+$/, "")}`}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                  <p className="panel-note">{cat.footerText}</p>
+                </div>
               </div>
             ))}
           </div>
