@@ -3,19 +3,163 @@
 import { useState } from "react";
 
 const categories = [
-  "O Ring Viton Custom",
-  "Packing Custom Non Asbeston & Asbestos",
-  "Packing Rubber Lembaran & Custom",
-  "Fitting Valve Besi",
-  "Fitting Valve PVC",
-  "Fitting Valve Stainless",
-  "Fitting Valve Swagelok",
-  "Spiral Wound Gasket",
-  "Mix",
+  {
+    label: "O Ring Viton Custom",
+    folder: "cat01",
+    images: [
+      "1a.jpeg",
+      "1b.jpeg",
+      "1c.jpeg",
+      "1d.jpeg",
+      "1e.jpeg",
+      "1f.jpeg",
+      "1g.jpeg",
+      "1h.jpeg",
+    ],
+  },
+  {
+    label: "Packing Custom Non Asbeston & Asbestos",
+    folder: "cat02",
+    images: [
+      "ASBES ROPE.jpg",
+      "ASBESTOS TAPE.jpg",
+      "everlasting carbflon.jpg",
+      "GASKET TOMBO 1995.JPG",
+      "GLAND PACKING GRAPHITE TEFLON.jpg",
+      "GLAND PACKING.jpg",
+      "KLINGER SIL C-4500.gif",
+      "PACKING GASKET TOMBO 1303.jpg",
+      "PACKING TOMBO.JPG",
+      "TBA.jpg",
+      "TOMBO 1000.jpg",
+      "TOMBO 1935 NON ASBESTOS.jpg",
+      "TOMBO1995.jpg",
+      "WhatsApp Image 2026-07-13 at 09.21.47 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.21.55 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.12.jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.19.jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.20 (2).jpeg",
+    ],
+  },
+  {
+    label: "Packing Rubber Lembaran & Custom",
+    folder: "cat03",
+    images: [
+      "Karet Viton.jpg",
+      "packing karet.jpg",
+      "SEAL MEMBRAN.jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.10 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.11 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.12 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.13 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.14.jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.15 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.18 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.21 (1).jpeg",
+    ],
+  },
+  {
+    label: "Fitting Valve Besi",
+    folder: "cat04",
+    images: [
+      "ANSI 150 THREAD - Copy.jpg",
+      "ANSI 300 galv RZ - Copy.JPG",
+      "BENKAN SCH 80 RZS  - Copy.jpg",
+      "BLIND FLANGE PN 10 24 in RZ - Copy.JPG",
+      "BUTTERFLY CI DISC SS.JPG",
+      "Butterfly valve .JPG",
+      "SOCKET 3000.pg.jpg",
+      "Straight Tee 3000.jpg",
+      "TEE & ELBOW 90 DEg.jpg",
+      "THREDOLET CLASS3000.jpg",
+      "water mur.jpg",
+      "WhatsApp Image 2026-07-13 at 09.27.20 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.20.jpeg",
+    ],
+  },
+  {
+    label: "Fitting Valve PVC",
+    folder: "cat05",
+    images: [
+      "BUTERFLY PVC JM.jpg",
+      "COUPLING SOCK PVC SCH80 SPEARS - Copy.jpg",
+      "FLANGE PVC.jpg",
+      "Flange WN PVC.JPG",
+      "IMG-20150107-WA000.jpg",
+      "SWING CHECK VALVE PVC.jpg",
+    ],
+  },
+  {
+    label: "Fitting Valve Stainless",
+    folder: "cat06",
+    images: [
+      "ball valve 3 pc.jpg",
+      "BALL VALVE 3.jpg",
+      "BALL VALVE TC 2PC BODY RSZ.jpg",
+      "BALL VALVE TC 4 IN RSZ.jpg",
+      "Butterfly Valve All Stainless.jpg",
+      "Butterfly Valve sanitary.jpg",
+      "DOUBLE NEPPLE SS 304 .jpg",
+      "FLANGE.jpg",
+      "TEE RICON RZS.JPG",
+      "WNRF ANSI 150.jpg",
+    ],
+  },
+  {
+    label: "Fitting Valve Swagelok",
+    folder: "cat07",
+    images: [
+      "WhatsApp Image 2026-07-13 at 09.27.17 (3).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.18.jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.19 (1).jpeg",
+    ],
+  },
+  {
+    label: "Spiral Wound Gasket",
+    folder: "cat08",
+    images: [
+      "IMG20211209110517.jpg",
+      "Spiral Wound Gasket.jpg",
+      "SWG BASIC GRP1.jpg",
+      "WhatsApp Image 2026-07-13 at 09.21.54 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.21.54.jpeg",
+      "WhatsApp Image 2026-07-13 at 09.21.55 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.11 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.12 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.14 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.14 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.15 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.16 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.16.jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.17 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.17 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.19 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.20 (3).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.27.21.jpeg",
+      "WhatsApp Image 2026-07-13 at 09.28.28 (2).jpeg",
+    ],
+  },
+  {
+    label: "Mix",
+    folder: "cat09",
+    images: [
+      "BAUT MUR FLUROCARBON.jfif",
+      "Baut Mur Stainless.jfif",
+      "Isowool Ceramic Blanket.JPG",
+      "PTFE SHEET.jpg",
+      "SIZE CLAMP H BEAM.jpeg",
+      "WhatsApp Image 2026-07-13 at 09.21.48 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.21.52 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.21.54 (2).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.28.28 (1).jpeg",
+      "WhatsApp Image 2026-07-13 at 09.28.28.jpeg",
+    ],
+  },
 ];
 
 export default function ProductsSection() {
   const [active, setActive] = useState(0);
+  const selectedCategory = categories[active];
 
   return (
     <section id="products">
@@ -31,11 +175,11 @@ export default function ProductsSection() {
           <div className="cat-list">
             {categories.map((cat, i) => (
               <div
-                key={cat}
+                key={cat.label}
                 className={`cat-item${active === i ? " active" : ""}`}
                 onClick={() => setActive(i)}
               >
-                {cat}
+                {cat.label}
                 {i > 0 && <span>›</span>}
               </div>
             ))}
@@ -48,89 +192,14 @@ export default function ProductsSection() {
               </a>
             </div>
             <div className="product-swatches">
-              <div className="swatch">
-                <svg width="70%" viewBox="0 0 60 60">
-                  <circle cx="30" cy="30" r="24" fill="none" stroke="#c98a5a" strokeWidth="7" />
-                </svg>
-              </div>
-              <div className="swatch">
-                <svg width="70%" viewBox="0 0 60 60">
-                  <circle cx="30" cy="30" r="24" fill="none" stroke="#8fa9c2" strokeWidth="7" />
-                </svg>
-              </div>
-              <div className="swatch">
-                <svg width="70%" viewBox="0 0 60 60">
-                  <circle cx="30" cy="30" r="24" fill="none" stroke="#7fae8f" strokeWidth="7" />
-                </svg>
-              </div>
-              <div className="swatch">
-                <svg width="70%" viewBox="0 0 60 60">
-                  <circle cx="30" cy="30" r="24" fill="none" stroke="#c9a25a" strokeWidth="7" />
-                </svg>
-              </div>
-            </div>
-            <div className="product-swatches">
-              <div className="swatch">
-                <svg width="80%" viewBox="0 0 60 60">
-                  <rect x="10" y="26" width="40" height="8" rx="2" fill="#9aa7b3" />
-                  <circle cx="30" cy="30" r="12" fill="none" stroke="#5b6b7c" strokeWidth="4" />
-                </svg>
-              </div>
-              <div className="swatch">
-                <svg width="80%" viewBox="0 0 60 60">
-                  <rect x="10" y="26" width="40" height="8" rx="2" fill="#9aa7b3" />
-                  <circle cx="30" cy="30" r="12" fill="none" stroke="#1c4d80" strokeWidth="4" />
-                </svg>
-              </div>
-              <div className="swatch">
-                <svg width="80%" viewBox="0 0 60 60">
-                  <rect x="10" y="26" width="40" height="8" rx="2" fill="#9aa7b3" />
-                  <circle cx="30" cy="30" r="12" fill="none" stroke="#5b6b7c" strokeWidth="4" />
-                </svg>
-              </div>
-              <div className="swatch">
-                <svg width="80%" viewBox="0 0 60 60">
-                  <rect x="10" y="26" width="40" height="8" rx="2" fill="#9aa7b3" />
-                  <rect x="22" y="18" width="16" height="24" rx="3" fill="#5b6b7c" />
-                </svg>
-              </div>
-            </div>
-            <div className="product-swatches">
-              {[0, 1, 2, 3].map((i) => (
-                <div className="swatch" key={i}>
-                  <svg width="80%" viewBox="0 0 60 60">
-                    <rect x="8" y="24" width="44" height="12" rx="6" fill="#aab5bf" />
-                  </svg>
+              {selectedCategory.images.map((image) => (
+                <div className="swatch" key={image}>
+                  <img
+                    src={encodeURI(`/${selectedCategory.folder}/${image}`)}
+                    alt={`${selectedCategory.label} - ${image.replace(/\.[^/.]+$/, "")}`}
+                  />
                 </div>
               ))}
-            </div>
-            <div className="thumb-row">
-              <div className="thumb">
-                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1.6">
-                  <path d="M3 21V9l9-6 9 6v12" />
-                  <path d="M9 21v-6h6v6" />
-                </svg>
-              </div>
-              <div className="thumb">
-                <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1.6">
-                  <rect x="4" y="3" width="16" height="18" rx="2" />
-                  <line x1="8" y1="8" x2="16" y2="8" />
-                  <line x1="8" y1="12" x2="16" y2="12" />
-                </svg>
-              </div>
-              <div className="thumb plain">
-                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                  <circle cx="12" cy="12" r="9" />
-                  <line x1="12" y1="7" x2="12" y2="17" />
-                  <line x1="7" y1="12" x2="17" y2="12" />
-                </svg>
-              </div>
-              <div className="thumb plain">
-                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-                  <circle cx="12" cy="12" r="3" />
-                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
-                </svg>
-              </div>
             </div>
             <p className="panel-note">
               * Showing featured items. Over 20+ variations available in our full catalog.
