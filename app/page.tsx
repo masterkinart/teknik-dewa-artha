@@ -16,12 +16,7 @@ export default function Home() {
               {/* <span>Solusi Rekayasa Industri Terpercaya</span> */}
             </h1>
             <p>
-              Menyediakan komponen teknik berkualitas tinggi dan layanan
-              rekayasa presisi untuk mendukung operasional industri manufaktur,
-              pertambangan, dan energi di seluruh Indonesia. Kami adalah toko
-              alat industri Surabaya dan Sidoarjo yang menjual alat industri
-              berkualitas seperti gasket, fitting, valve, plat, dan
-              sparepart teknik.
+              Menyediakan komponen teknik industri berkualitas tinggi dan layanan rekayasa presisi untuk mendukung operasional industri manufaktur, pertambangan, dan energi di seluruh Indonesia. Kami adalah toko alat industri Surabaya dan Sidoarjo yang menjual alat industri berkualitas seperti gasket, fitting, valve, plat, dan sparepart teknik.
             </p>
             <div className="hero-actions">
               <a href="#products" className="btn btn-primary">
@@ -94,15 +89,12 @@ export default function Home() {
                 <h3>Misi CV. Teknik Dewa Artha</h3>
                 <ul>
                   <li>
-                    Secara berkala meningkatkan performa dalam sistem manajemen.
+                    Memenuhi kebutuhan sparepart/mengerjakan produk custom
+                    dengan menjaga hasil kualitas kerja dan ketepatan waktu.
                   </li>
                   <li>
                     Menjalin hubungan kerjasama yang baik dan berkelanjutan
                     dengan mitra perusahaan/konsumen dibidangnya.
-                  </li>
-                  <li>
-                    Memenuhi kebutuhan sparepart/mengerjakan produk custom
-                    dengan menjaga hasil kualitas kerja dan ketepatan waktu.
                   </li>
                 </ul>
               </div>

@@ -774,8 +774,17 @@ footer {
   .menu-toggle {
     display: flex;
   }
+  .nav-cta {
+    display: none;
+  }
+  .hero .container-wide {
+    padding: 0 25px;
+  }
   .hero-content h1 {
     font-size: 27px;
+  }
+  .about-media {
+    display: none;
   }
   .vm-grid {
     grid-template-columns: 1fr;
