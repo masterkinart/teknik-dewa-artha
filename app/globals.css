@@ -814,7 +814,7 @@ footer {
   }
   .cat-panel {
     display: block;
-    padding: 16px 18px 12px;
+    /* padding: 16px 18px 12px; */
     border: 1px solid var(--gray-300);
     border-top: none;
     border-radius: 0 0 12px 12px;
