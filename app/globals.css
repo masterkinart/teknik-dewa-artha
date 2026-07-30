@@ -511,7 +511,7 @@ section[id] {
 }
 
 .cat-panel {
-  display: block;
+  display: none;
   max-height: 0;
   overflow: hidden;
   transform-origin: top;
