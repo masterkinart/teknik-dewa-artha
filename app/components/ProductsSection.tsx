@@ -149,12 +149,12 @@ export default function ProductsSection() {
             ))}
           </div>
           <div className="product-panel">
-            <div className="panel-head">
+            {/* <div className="panel-head">
               <h3>Gasket &amp; Sealing Solutions</h3>
               <a href="#contact" className="btn-navy-sm">
                 View Full Catalog
               </a>
-            </div>
+            </div> */}
             <div className="product-swatches">
               {selectedCategory.images.map((image) => (
                 <div className="swatch" key={image}>
