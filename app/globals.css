@@ -853,6 +853,10 @@ footer {
   }
   .hero .container-wide {
     padding: 0 25px;
+    grid-template-columns: unset;
+  }
+  .hero-content {
+    padding: 0;
   }
   .hero-content h1 {
     font-size: 27px;
