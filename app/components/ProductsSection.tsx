@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 const categories = [
@@ -150,9 +151,13 @@ export default function ProductsSection() {
                   <div className="product-swatches">
                     {cat.images.map((image) => (
                       <div className="swatch" key={image}>
-                        <img
+                        <Image
                           src={encodeURI(`/${cat.folder}/${image}`)}
                           alt={`${cat.label} - ${image.replace(/\.[^/.]+$/, "")}`}
+                          fill
+                          sizes="(max-width: 768px) 100vw, 25vw"
+                          quality={70}
+                          className="swatch-img"
                         />
                       </div>
                     ))}
@@ -172,9 +177,13 @@ export default function ProductsSection() {
             <div className="product-swatches">
               {selectedCategory.images.map((image) => (
                 <div className="swatch" key={image}>
-                  <img
+                  <Image
                     src={encodeURI(`/${selectedCategory.folder}/${image}`)}
                     alt={`${selectedCategory.label} - ${image.replace(/\.[^/.]+$/, "")}`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 25vw"
+                    quality={70}
+                    className="swatch-img"
                   />
                 </div>
               ))}

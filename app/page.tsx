@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Header from "./components/Header";
 import ProductsSection from "./components/ProductsSection";
 
@@ -8,7 +9,14 @@ export default function Home() {
 
       {/* HERO */}
       <section className="hero" id="home">
-        <img src="/hero-bg.png" className="hero-img" alt="Hero Image" />
+        <Image
+          src="/hero-bg.jpeg"
+          alt="Hero Image"
+          fill
+          priority
+          sizes="100vw"
+          className="hero-img"
+        />
         <div className="container-wide">
           <div className="hero-content">
             <h1>
@@ -16,7 +24,7 @@ export default function Home() {
               {/* <span>Solusi Rekayasa Industri Terpercaya</span> */}
             </h1>
             <p>
-              Menyediakan komponen teknik industri berkualitas tinggi dan layanan custom presisi untuk mendukung operasional industri manufaktur, pertambangan, dan energi di seluruh Indonesia. Kami adalah toko alat industri Surabaya dan Sidoarjo yang menjual alat industri berkualitas seperti gasket, fitting, valve, plat, dan sparepart teknik.
+              Kami adalah toko alat industri Surabaya dan Sidoarjo yang menjual alat industri berkualitas seperti gasket, fitting, valve, plat, dan sparepart teknik. Menyediakan komponen teknik industri berkualitas tinggi dan layanan custom presisi untuk mendukung operasional industri manufaktur, pertambangan, dan energi di seluruh Indonesia. 
             </p>
             <div className="hero-actions">
               <a href="#products" className="btn btn-primary">
