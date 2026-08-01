@@ -857,6 +857,9 @@ footer {
   .hero-content h1 {
     font-size: 27px;
   }
+  .hero-visual {
+    display: none;
+  }
   .about-media {
     display: none;
   }
