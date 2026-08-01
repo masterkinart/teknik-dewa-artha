@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Header() {
@@ -37,6 +38,13 @@ export default function Header() {
     <header>
       <div className="nav-wrap">
         <a href="#home" className="logo">
+          <Image
+            src="/logo.jpeg"
+            alt="Teknik Dewa Artha logo"
+            width={38}
+            height={38}
+            className="logo-img"
+          />
           TEKNIK DEWA ARTHA
         </a>
         <nav

@@ -110,63 +110,24 @@ export default function Home() {
           </div>
           <div className="about-media">
             <div className="about-photo">
-              <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
-                <rect width="400" height="500" fill="url(#g1)" />
-                <defs>
-                  <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0" stopColor="#3a5a7c" />
-                    <stop offset="1" stopColor="#0f2440" />
-                  </linearGradient>
-                </defs>
-                <g opacity="0.5" stroke="#cfe0f4" strokeWidth="2">
-                  <line x1="20" y1="60" x2="380" y2="60" />
-                  <line x1="20" y1="140" x2="380" y2="140" />
-                  <line x1="60" y1="60" x2="60" y2="500" />
-                  <line x1="340" y1="60" x2="340" y2="500" />
-                </g>
-                <circle
-                  cx="200"
-                  cy="230"
-                  r="70"
-                  fill="none"
-                  stroke="#e7edf5"
-                  strokeWidth="4"
-                  opacity="0.7"
+              <Image
+                src="/hero-bg.jpeg"
+                alt="About hero image"
+                fill
+                sizes="(max-width: 768px) 100vw, 420px"
+                priority={false}
+                className="about-img"
+              />
+              <div className="about-photo-overlay"></div>
+              <div className="about-photo-logo">
+                <Image
+                  src="/logo.jpeg"
+                  alt="Company logo"
+                  width={56}
+                  height={56}
+                  className="about-logo-img"
                 />
-                <rect
-                  x="150"
-                  y="300"
-                  width="100"
-                  height="130"
-                  rx="6"
-                  fill="#e7edf5"
-                  opacity="0.85"
-                />
-                <rect
-                  x="165"
-                  y="320"
-                  width="70"
-                  height="10"
-                  rx="3"
-                  fill="#16375c"
-                />
-                <rect
-                  x="165"
-                  y="340"
-                  width="70"
-                  height="10"
-                  rx="3"
-                  fill="#16375c"
-                />
-                <rect
-                  x="165"
-                  y="360"
-                  width="45"
-                  height="10"
-                  rx="3"
-                  fill="#16375c"
-                />
-              </svg>
+              </div>
             </div>
             <div className="exp-badge">
               <div className="num">10+</div>
