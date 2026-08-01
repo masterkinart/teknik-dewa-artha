@@ -3,6 +3,28 @@
 import Image from "next/image";
 import { useState } from "react";
 
+const supportedImageExtensions = ["jpg", "jpeg", "png", "webp", "gif", "svg", "ico", "avif"];
+
+function renderSwatchImage(path: string, alt: string) {
+  const src = encodeURI(path);
+  const ext = path.split(".").pop()?.toLowerCase() ?? "";
+
+  if (supportedImageExtensions.includes(ext)) {
+    return (
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        sizes="(max-width: 768px) 100vw, 25vw"
+        quality={70}
+        className="swatch-img"
+      />
+    );
+  }
+
+  return <img src={src} alt={alt} loading="lazy" />;
+}
+
 const categories = [
   {
     label: "O Ring Viton Custom",
@@ -151,14 +173,10 @@ export default function ProductsSection() {
                   <div className="product-swatches">
                     {cat.images.map((image) => (
                       <div className="swatch" key={image}>
-                        <Image
-                          src={encodeURI(`/${cat.folder}/${image}`)}
-                          alt={`${cat.label} - ${image.replace(/\.[^/.]+$/, "")}`}
-                          fill
-                          sizes="(max-width: 768px) 100vw, 25vw"
-                          quality={70}
-                          className="swatch-img"
-                        />
+                        {renderSwatchImage(
+                          `/${cat.folder}/${image}`,
+                          `${cat.label} - ${image.replace(/\.[^/.]+$/, "")}`
+                        )}
                       </div>
                     ))}
                   </div>
@@ -177,14 +195,10 @@ export default function ProductsSection() {
             <div className="product-swatches">
               {selectedCategory.images.map((image) => (
                 <div className="swatch" key={image}>
-                  <Image
-                    src={encodeURI(`/${selectedCategory.folder}/${image}`)}
-                    alt={`${selectedCategory.label} - ${image.replace(/\.[^/.]+$/, "")}`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 25vw"
-                    quality={70}
-                    className="swatch-img"
-                  />
+                  {renderSwatchImage(
+                    `/${selectedCategory.folder}/${image}`,
+                    `${selectedCategory.label} - ${image.replace(/\.[^/.]+$/, "")}`
+                  )}
                 </div>
               ))}
             </div>
