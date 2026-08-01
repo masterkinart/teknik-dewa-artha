@@ -123,8 +123,8 @@ export default function Home() {
                 <Image
                   src="/logo.jpeg"
                   alt="Company logo"
-                  width={56}
-                  height={56}
+                  width={112}
+                  height={112}
                   className="about-logo-img"
                 />
               </div>
