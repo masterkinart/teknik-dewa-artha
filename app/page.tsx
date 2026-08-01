@@ -17,7 +17,7 @@ export default function Home() {
           sizes="100vw"
           className="hero-img"
         />
-        <div className="container-wide">
+        <div className="container-wide hero-grid">
           <div className="hero-content">
             <h1>
               CV. TEKNIK DEWA ARTHA
@@ -34,6 +34,15 @@ export default function Home() {
                 Konsultasi Sekarang
               </a>
             </div>
+          </div>
+          <div className="hero-visual">
+            <Image
+              src="/hero-cutoff.png"
+              alt="Hero visual"
+              fill
+              sizes="(max-width: 768px) 100vw, 520px"
+              className="hero-cutoff"
+            />
           </div>
         </div>
       </section>
