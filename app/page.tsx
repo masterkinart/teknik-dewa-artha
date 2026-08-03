@@ -350,7 +350,7 @@ export default function Home() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
-              title="Lokasi Kantor PT. Teknik Dewa Artha"
+              title="Lokasi Kantor CV. Teknik Dewa Artha"
             ></iframe>
           </div>
         </div>
@@ -394,7 +394,7 @@ export default function Home() {
           <div className="footer-left">
             <div className="fname">TEKNIK DEWA ARTHA</div>
             <div className="copy">
-              © 2024 PT. TEKNIK DEWA ARTHA. All rights reserved.
+              © 2025 CV. TEKNIK DEWA ARTHA. All rights reserved.
             </div>
           </div>
           <div className="footer-links">
