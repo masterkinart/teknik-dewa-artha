@@ -6,7 +6,7 @@ import "./globals.css";
 const schema = {
   "@context": "https://schema.org",
   "@type": "Store",
-  name: "PT. Teknik Dewa Artha",
+  name: "CV. Teknik Dewa Artha",
   description:
     "Dewa Artha adalah toko alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
   telephone: "0856 4846 8999",
@@ -21,7 +21,7 @@ const schema = {
 };
 
 export const metadata: Metadata = {
-  title: "PT. Teknik Dewa Artha - Toko Alat Industri Surabaya & Sidoarjo",
+  title: "CV. Teknik Dewa Artha - Toko Alat Industri Surabaya & Sidoarjo",
   description:
     "Dewa Artha adalah toko alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
   keywords: [
@@ -119,19 +119,23 @@ export const metadata: Metadata = {
     "jual swg ior ss304 surabaya",
     "jual swg ior ss316 surabaya",
     "jual asbestos tape surabaya",
-    "jual fiber tape surabaya"
+    "jual fiber tape surabaya",
+    "jual gasket surabaya",
+    "jual Valve surabaya",
+    "jual gasket surabaya",
+    "jual packing surabaya",
   ],
   openGraph: {
-    title: "PT. Teknik Dewa Artha - Toko Alat Industri Surabaya & Sidoarjo",
+    title: "CV. Teknik Dewa Artha - Toko Alat Industri Surabaya & Sidoarjo",
     description:
       "Dewa Artha adalah toko alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
-    siteName: "PT. Teknik Dewa Artha",
+    siteName: "CV. Teknik Dewa Artha",
     type: "website",
     locale: "id_ID",
   },
   twitter: {
     card: "summary_large_image",
-    title: "PT. Teknik Dewa Artha - Toko Alat Industri Surabaya & Sidoarjo",
+    title: "CV. Teknik Dewa Artha - Toko Alat Industri Surabaya & Sidoarjo",
     description:
       "Dewa Artha adalah toko alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
   },
