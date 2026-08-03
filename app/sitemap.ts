@@ -1,4 +1,4 @@
-const siteUrl = process.env.SITE_URL || "https://www.example.com";
+const siteUrl = process.env.SITE_URL || "https://www.dewagasket.com";
 
 export default function sitemap() {
   return [
