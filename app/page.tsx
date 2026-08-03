@@ -24,7 +24,7 @@ export default function Home() {
               {/* <span>Solusi Rekayasa Industri Terpercaya</span> */}
             </h1>
             <p>
-              Kami adalah toko alat industri Surabaya dan Sidoarjo yang menjual alat industri berkualitas seperti gasket, fitting, valve, plat, dan sparepart teknik. Menyediakan komponen teknik industri berkualitas tinggi dan layanan custom presisi untuk mendukung operasional industri manufaktur, pertambangan, dan energi di seluruh Indonesia. 
+              Kami adalah toko alat industri Surabaya dan Sidoarjo yang menjual alat industri berkualitas seperti gasket, fitting, valve, plat, dan sparepart teknik. Menyediakan komponen teknik industri berkualitas tinggi dan layanan custom presisi untuk mendukung operasional industri manufaktur, pertambangan, dan energi di seluruh Indonesia.
             </p>
             <div className="hero-actions">
               <a href="#products" className="btn btn-primary">
@@ -34,15 +34,6 @@ export default function Home() {
                 Konsultasi Sekarang
               </a>
             </div>
-          </div>
-          <div className="hero-visual">
-            <Image
-              src="/hero-cutoff.png"
-              alt="Hero visual"
-              fill
-              sizes="(max-width: 768px) 100vw, 520px"
-              className="hero-cutoff"
-            />
           </div>
         </div>
       </section>
