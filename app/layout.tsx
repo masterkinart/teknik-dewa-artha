@@ -15,7 +15,7 @@ const schema = {
   "@type": "Store",
   name: "CV. Teknik Dewa Artha",
   description:
-    "Dewa Artha adalah toko alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
+    "Dewa Artha adalah supplier alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
   telephone: "0856 4846 8999",
   email: "cvteknikdewaartha@yahoo.com",
   address: {
@@ -28,11 +28,11 @@ const schema = {
 };
 
 export const metadata: Metadata = {
-  title: "CV. Teknik Dewa Artha - Toko Alat Industri Surabaya & Sidoarjo",
+  title: "CV. Teknik Dewa Artha - Supplier Alat Industri Surabaya & Sidoarjo",
   description:
-    "Dewa Artha adalah toko alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
+    "Dewa Artha adalah supplier alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
   keywords: [
-    "toko alat industri",
+    "supplier alat industri",
     "alat industri Surabaya",
     "alat industri Sidoarjo",
     "sparepart industri",
@@ -42,18 +42,18 @@ export const metadata: Metadata = {
     "gasket packing",
   ],
   openGraph: {
-    title: "CV. Teknik Dewa Artha - Toko Alat Industri Surabaya & Sidoarjo",
+    title: "CV. Teknik Dewa Artha - Supplier Alat Industri Surabaya & Sidoarjo",
     description:
-      "Dewa Artha adalah toko alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
+      "Dewa Artha adalah supplier alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
     siteName: "CV. Teknik Dewa Artha",
     type: "website",
     locale: "id_ID",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CV. Teknik Dewa Artha - Toko Alat Industri Surabaya & Sidoarjo",
+    title: "CV. Teknik Dewa Artha - Supplier Alat Industri Surabaya & Sidoarjo",
     description:
-      "Dewa Artha adalah toko alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
+      "Dewa Artha adalah supplier alat industri Surabaya dan Sidoarjo yang menyediakan alat industri berkualitas, sparepart, gasket, fitting, valve, plat, pipa, dan komponen teknik.",
     images: ["/hero-bg.jpeg"],
   },
 };
