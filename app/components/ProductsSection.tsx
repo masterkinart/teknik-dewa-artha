@@ -15,6 +15,7 @@ function renderSwatchImage(path: string, alt: string) {
         src={src}
         alt={alt}
         fill
+        loading="lazy"
         sizes="(max-width: 768px) 100vw, 25vw"
         quality={70}
         className="swatch-img"
@@ -22,7 +23,7 @@ function renderSwatchImage(path: string, alt: string) {
     );
   }
 
-  return <img src={src} alt={alt} loading="lazy" />;
+  return <img src={src} alt={alt} loading="lazy" decoding="async" />;
 }
 
 const categories = [
@@ -186,12 +187,6 @@ export default function ProductsSection() {
             ))}
           </div>
           <div className="product-panel">
-            {/* <div className="panel-head">
-              <h3>Gasket &amp; Sealing Solutions</h3>
-              <a href="#contact" className="btn-navy-sm">
-                View Full Catalog
-              </a>
-            </div> */}
             <div className="product-swatches">
               {selectedCategory.images.map((image) => (
                 <div className="swatch" key={image}>
