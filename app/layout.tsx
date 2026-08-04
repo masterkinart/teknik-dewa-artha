@@ -30,11 +30,11 @@ const schema = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://teknikdewaartha.com"),
   title: {
-    default: "Supplier Alat Industri Surabaya & Sidoarjo | CV. Teknik Dewa Artha",
+    default: "CV. Teknik Dewa Artha  | Supplier Alat Industri Surabaya",
     template: "%s | CV. Teknik Dewa Artha",
   },
   description:
-    "Supplier alat industri terpercaya di Surabaya dan Sidoarjo: gasket spiral wound, o-ring viton, fitting valve, valve, bolt nut, plat, pipa, sparepart industri, dan solusi custom untuk kebutuhan manufaktur.",
+    "Dewa Gasket: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
   keywords: [
     "supplier alat industri Surabaya",
     "supplier alat industri Sidoarjo",
@@ -51,6 +51,18 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://teknikdewaartha.com",
   },
+  icons: [
+    {
+      rel: "icon",
+      url: "/logo.jpeg",
+      type: "image/jpeg",
+    },
+    {
+      rel: "apple-touch-icon",
+      url: "/logo.jpeg",
+      type: "image/jpeg",
+    },
+  ],
   robots: {
     index: true,
     follow: true,
@@ -63,9 +75,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Supplier Alat Industri Surabaya & Sidoarjo | CV. Teknik Dewa Artha",
+    title: "CV. Teknik Dewa Artha  | Supplier Alat Industri Surabaya",
     description:
-      "Supplier alat industri terpercaya di Surabaya dan Sidoarjo: gasket spiral wound, o-ring viton, fitting valve, valve, bolt nut, plat, pipa, sparepart industri, dan solusi custom untuk kebutuhan manufaktur.",
+      "Dewa Gasket: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
     url: "https://teknikdewaartha.com",
     siteName: "CV. Teknik Dewa Artha",
     type: "website",
@@ -81,9 +93,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Supplier Alat Industri Surabaya & Sidoarjo | CV. Teknik Dewa Artha",
+    title: "CV. Teknik Dewa Artha  | Supplier Alat Industri Surabaya",
     description:
-      "Supplier alat industri terpercaya di Surabaya dan Sidoarjo: gasket spiral wound, o-ring viton, fitting valve, valve, bolt nut, plat, pipa, sparepart industri, dan solusi custom untuk kebutuhan manufaktur.",
+      "Dewa Gasket: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
     images: ["/hero-bg.jpeg"],
   },
   applicationName: "CV. Teknik Dewa Artha",
