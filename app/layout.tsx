@@ -30,7 +30,7 @@ const schema = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://teknikdewaartha.com"),
   title: {
-    default: "CV. Teknik Dewa Artha  | Supplier Alat Industri Surabaya",
+    default: "CV. Teknik Dewa Artha | Packing Gasket Surabaya",
     template: "%s | CV. Teknik Dewa Artha",
   },
   description:
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "CV. Teknik Dewa Artha  | Supplier Alat Industri Surabaya",
+    title: "CV. Teknik Dewa Artha | Packing Gasket Surabaya",
     description:
       "Dewa Gasket: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
     url: "https://teknikdewaartha.com",
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CV. Teknik Dewa Artha  | Supplier Alat Industri Surabaya",
+    title: "CV. Teknik Dewa Artha | Packing Gasket Surabaya",
     description:
       "Dewa Gasket: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
     images: ["/hero-bg.jpeg"],
