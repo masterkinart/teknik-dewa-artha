@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     template: "%s | CV. Teknik Dewa Artha",
   },
   description:
-    "Dewa Gasket: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
+    "Dewa Artha: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
   keywords: [
     "supplier alat industri Surabaya",
     "supplier alat industri Sidoarjo",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "CV. Teknik Dewa Artha | Packing Gasket Surabaya",
     description:
-      "Dewa Gasket: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
+      "Dewa Artha: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
     url: "https://teknikdewaartha.com",
     siteName: "CV. Teknik Dewa Artha",
     type: "website",
@@ -95,7 +95,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "CV. Teknik Dewa Artha | Packing Gasket Surabaya",
     description:
-      "Dewa Gasket: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
+      "Dewa Artha: Supplier alat industri Surabaya & Sidoarjo. Jual spiral wound gasket, o-ring, valve, pipa & custom sparepart manufaktur. Hubungi kami!",
     images: ["/hero-bg.jpeg"],
   },
   applicationName: "CV. Teknik Dewa Artha",

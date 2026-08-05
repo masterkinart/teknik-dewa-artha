@@ -119,16 +119,6 @@ export default function Home() {
                 priority={false}
                 className="about-img"
               />
-              <div className="about-photo-overlay"></div>
-              <div className="about-photo-logo">
-                <Image
-                  src="/logo.jpeg"
-                  alt="Company logo"
-                  width={112}
-                  height={112}
-                  className="about-logo-img"
-                />
-              </div>
             </div>
             <div className="exp-badge">
               <div className="num">10+</div>
